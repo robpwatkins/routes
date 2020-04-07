@@ -3,7 +3,7 @@ import './App.css';
 import Nav from './Nav';
 import About from './About';
 import Shop from './Shop';
-import ItemDetails from './ItemDetails';
+import ItemDetails from './ItemDetail';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {

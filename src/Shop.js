@@ -11,7 +11,7 @@ function Shop() {
 
   const fetchItems = async () => {
     const data = await fetch(
-      'https://gist.githubusercontent.com/robpwatkins/3fddbada918e592e3901a474b0953df9/raw/2248e409849ec1945a0b356205c771311b22ed7a/puppyAPI.json'
+      'https://gist.githubusercontent.com/robpwatkins/3fddbada918e592e3901a474b0953df9/raw/220b62c60c864ee86430f8ad73266d37b813c081/puppyAPI.json'
     );
     const items = await data.json();
     setItems(items);
